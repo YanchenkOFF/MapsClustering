@@ -1,7 +1,9 @@
 package com.example.mapsclustering.data
 
-import com.example.mapsclustering.domain.Atm
-import com.example.mapsclustering.domain.Infobox
+import com.example.mapsclustering.data.model.AtmNW
+import com.example.mapsclustering.data.model.InfoboxNW
+import com.example.mapsclustering.domain.model.Atm
+import com.example.mapsclustering.domain.model.Infobox
 
 internal fun AtmNW.toDomain() = Atm(
     address = address,

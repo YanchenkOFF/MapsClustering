@@ -1,5 +1,7 @@
 package com.example.mapsclustering.data
 
+import com.example.mapsclustering.data.model.AtmNW
+import com.example.mapsclustering.data.model.InfoboxNW
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Retrofit

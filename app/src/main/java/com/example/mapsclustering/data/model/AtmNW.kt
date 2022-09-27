@@ -1,4 +1,4 @@
-package com.example.mapsclustering.data
+package com.example.mapsclustering.data.model
 
 
 import com.google.gson.annotations.SerializedName

@@ -1,4 +1,4 @@
-package com.example.mapsclustering.domain
+package com.example.mapsclustering.domain.model
 
 data class Infobox(
     val address: String,

@@ -1,7 +1,7 @@
 package com.example.mapsclustering.presentation.map.mappers
 
-import com.example.mapsclustering.domain.Atm
-import com.example.mapsclustering.domain.Infobox
+import com.example.mapsclustering.domain.model.Atm
+import com.example.mapsclustering.domain.model.Infobox
 import com.example.mapsclustering.presentation.map.model.BankPoint
 import com.example.mapsclustering.presentation.map.model.PointType
 import com.google.android.gms.maps.model.LatLng
