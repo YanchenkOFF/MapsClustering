@@ -44,21 +44,6 @@ class MapViewModel(private val bankRepository: BankRepository) : ViewModel() {
             }
         }
     }
-
-//    fun filterPoints() {
-//        viewModelScope.launch {
-//            val newList = if (filtered) {
-//                val x = defaultPoints.filter { it.type != PointType.INFOBOX }
-//                x
-//            } else {
-//                defaultPoints
-//            }
-//            filtered = !filtered
-//            withContext(Dispatchers.Main) {
-//                _state.emit(state.value.copy(devices = newList))
-//            }
-//        }
-//    }
 }
 
 @Suppress("UNCHECKED_CAST")
